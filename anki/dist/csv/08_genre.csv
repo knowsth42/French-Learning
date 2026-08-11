@@ -1,22 +1,22 @@
 ﻿词尾,性别,可靠度,例词,例外
--tion / -sion / -ssion,阴性 ♀ féminin,~99%,"la nation, la décision, la passion",
--té / -tié,阴性 ♀ féminin,~99%,"la liberté, la qualité, l'amitié","le côté, l'été, le comité"
--ance / -ence,阴性 ♀ féminin,~95%,"la chance, la science, la différence",le silence
--ure,阴性 ♀ féminin,~95%,"la culture, la nature, la voiture",le mur
--ette,阴性 ♀ féminin,~99%,"la baguette, la cigarette",
--ie,阴性 ♀ féminin,~95%,"la vie, la biologie, la sortie","le génie, le parapluie"
--esse,阴性 ♀ féminin,~99%,"la richesse, la vitesse, la jeunesse",
--ude / -ade,阴性 ♀ féminin,~95%,"l'habitude, la salade, la promenade","le stade, le grade"
--eur（抽象名词）,阴性 ♀ féminin,常见,"la peur, la couleur, la douleur, la chaleur","le bonheur, le malheur"
--ment,阳性 ♂ masculin,~99%,"le gouvernement, le moment, le bâtiment",la jument（母马）
--age,阳性 ♂ masculin,~90%,"le voyage, le fromage, le message","la plage, l'image, la page, la cage, la nage, la rage"
--eau,阳性 ♂ masculin,~95%,"le bureau, le château, le bateau","l'eau ♀, la peau ♀"
--isme,阳性 ♂ masculin,100%,"le capitalisme, le tourisme",
--oir,阳性 ♂ masculin,~95%,"le miroir, le devoir, le couloir",
--ier / -er,阳性 ♂ masculin,~95%,"le cahier, le quartier, le boulanger","la mer, la cuiller"
--et / -on,阳性 ♂ masculin,~90%,"le paquet, le ballon, le bâton","la maison, la raison, la façon"
--eur（施事者／机器）,阳性 ♂ masculin,~95%,"le professeur, le moteur, l'ordinateur",
-英语外来词,阳性 ♂ masculin,~95%,"le week-end, le parking, le smartphone, le shopping",la start-up
-语言名,阳性 ♂ masculin,100%,"le français, le chinois, l'anglais",
-星期／月份／季节,阳性 ♂ masculin,100%,"le lundi, le mai, l'été, l'hiver",
-树／金属／颜色／数字,阳性 ♂ masculin,~100%,"le chêne, le fer, le vert, le trois",
+-tion / -sion / -ssion,名词 · 阴性 ♀,~99%,"la nation, la décision, la passion",
+-té / -tié,名词 · 阴性 ♀,~99%,"la liberté, la qualité, l'amitié","le côté, l'été, le comité"
+-ance / -ence,名词 · 阴性 ♀,~95%,"la chance, la science, la différence",le silence
+-ure,名词 · 阴性 ♀,~95%,"la culture, la nature, la voiture",le mur
+-ette,名词 · 阴性 ♀,~99%,"la baguette, la cigarette",
+-ie,名词 · 阴性 ♀,~95%,"la vie, la biologie, la sortie","le génie, le parapluie"
+-esse,名词 · 阴性 ♀,~99%,"la richesse, la vitesse, la jeunesse",
+-ude / -ade,名词 · 阴性 ♀,~95%,"l'habitude, la salade, la promenade","le stade, le grade"
+-eur（抽象名词）,名词 · 阴性 ♀,常见,"la peur, la couleur, la douleur, la chaleur","le bonheur, le malheur"
+-ment,名词 · 阳性 ♂,~99%,"le gouvernement, le moment, le bâtiment",la jument（母马）
+-age,名词 · 阳性 ♂,~90%,"le voyage, le fromage, le message","la plage, l'image, la page, la cage, la nage, la rage"
+-eau,名词 · 阳性 ♂,~95%,"le bureau, le château, le bateau","l'eau ♀, la peau ♀"
+-isme,名词 · 阳性 ♂,100%,"le capitalisme, le tourisme",
+-oir,名词 · 阳性 ♂,~95%,"le miroir, le devoir, le couloir",
+-ier / -er,名词 · 阳性 ♂,~95%,"le cahier, le quartier, le boulanger","la mer, la cuiller"
+-et / -on,名词 · 阳性 ♂,~90%,"le paquet, le ballon, le bâton","la maison, la raison, la façon"
+-eur（施事者／机器）,名词 · 阳性 ♂,~95%,"le professeur, le moteur, l'ordinateur",
+英语外来词,名词 · 阳性 ♂,~95%,"le week-end, le parking, le smartphone, le shopping",la start-up
+语言名,名词 · 阳性 ♂,100%,"le français, le chinois, l'anglais",
+星期／月份／季节,名词 · 阳性 ♂,100%,"le lundi, le mai, l'été, l'hiver",
+树／金属／颜色／数字,名词 · 阳性 ♂,~100%,"le chêne, le fer, le vert, le trois",

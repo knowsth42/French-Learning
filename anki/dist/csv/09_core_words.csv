@@ -1,68 +1,71 @@
-﻿法语,词性,英文释义,中文释义,例句挖空,例句,例句中文
-rester,v.,"to stay, to remain, to be left",停留、剩下,Il _____ encore du temps.,Il reste encore du temps.,还有时间。
-chercher,v.,"to look for, to search",找、寻找,Je _______ mes lunettes.,Je cherche mes lunettes.,我在找我的眼镜。
-trouver,v.,to find; to think (opinion),找到；觉得,Je ______ ça bizarre.,Je trouve ça bizarre.,我觉得这很奇怪。
-garder,v.,to keep; to look after,保留、保管；照看,_____ ça pour toi.,Garde ça pour toi.,这事你别说出去。
-laisser,v.,"to leave (sth), to let",留下；让、允许,______-moi t'expliquer.,Laisse-moi t'expliquer.,让我跟你解释。
-apporter,v.,to bring (an object),带来（物）,_______ ton ordinateur.,Apporte ton ordinateur.,把你电脑带来。
-emmener,v.,to take (a person) somewhere,带走（人）,Je t'______ au restaurant.,Je t'emmène au restaurant.,我带你去餐厅。
-essayer,v.,to try; to try on,尝试；试穿,______ encore une fois.,Essaie encore une fois.,再试一次。
-oublier,v.,to forget,忘记,J'ai ______ mon parapluie.,J'ai oublié mon parapluie.,我忘带伞了。
-tomber,v.,to fall,掉落、跌倒,Elle est ______ dans l'escalier.,Elle est tombée dans l'escalier.,她在楼梯上摔倒了。
-jeter,v.,"to throw, to throw away",扔、丢弃,Ne _____ pas ça !,Ne jette pas ça !,别把这个扔了！
-ranger,v.,"to tidy up, to put away",整理、收好,_____ ta chambre.,Range ta chambre.,把你房间收拾一下。
-allumer / éteindre,v.,to turn on / to turn off,打开／关掉（电器、灯）,______ la lumière en sortant.,Éteins la lumière en sortant.,出去时把灯关了。
-gagner,v.,to win; to earn,赢；赚,Elle _____ bien sa vie.,Elle gagne bien sa vie.,她收入不错。
-choisir,v.,to choose,选择,Il faut _______ maintenant.,Il faut choisir maintenant.,现在必须做选择。
-empêcher,v.,"to prevent, to stop (sb from)",阻止、妨碍,Rien ne t'_______ d'essayer.,Rien ne t'empêche d'essayer.,没什么能阻止你去试。
-éviter,v.,to avoid,避免,J'_____ les heures de pointe.,J'évite les heures de pointe.,我避开高峰时段。
-atteindre,v.,"to reach, to attain",达到、抵达,Nous avons _______ notre objectif.,Nous avons atteint notre objectif.,我们达到了目标。
-gérer,v.,"to manage, to handle",管理、处理,Je ____ la situation.,Je gère la situation.,我来处理这个情况。
-plaire (à),v.,"to please, to be liked by",使喜欢（主宾与英语相反）,Ce film m'a beaucoup ____.,Ce film m'a beaucoup plu.,我很喜欢这部电影。
-manquer (à),v.,to miss (sb); to lack,思念（主宾相反）；缺少,Tu me _______.,Tu me manques.,我想你。
-suffire,v.,to be enough,足够,Ça ______ !,Ça suffit !,够了！
-se débrouiller,v.,"to manage, to cope",自己应付、想办法,Je me __________ en français.,Je me débrouille en français.,我法语还应付得来。
-se rendre compte (de),v.,to realize,意识到,Je ne m'étais pas ____________.,Je ne m'étais pas rendu compte.,我之前没意识到。
-falloir (il faut),v.,"to be necessary, must",必须、需要（无人称）,Il ____ partir maintenant.,Il faut partir maintenant.,现在必须走了。
-valoir (ça vaut),v.,to be worth,值得、价值,Ça ____ le coup.,Ça vaut le coup.,这值得一试。
-s'agir (il s'agit de),v.,"to be about, to be a matter of",涉及、关于,Il ______ d'un malentendu.,Il s'agit d'un malentendu.,这是个误会。
-appartenir (à),v.,to belong to,属于,Ce livre __________ à Marie.,Ce livre appartient à Marie.,这本书是玛丽的。
-encore,adv.,still; again; more,还、仍然；再；更,Tu es ______ là ?,Tu es encore là ?,你还在这儿？
-déjà,adv.,already,已经,J'ai ____ mangé.,J'ai déjà mangé.,我已经吃过了。
-plutôt,adv.,"rather, quite; instead",宁可、相当；而是,C'est ______ difficile.,C'est plutôt difficile.,这相当难。
-quand même,loc.,"still, anyway, all the same",还是、仍然（口语高频）,"C'est cher, mais je le prends __________.","C'est cher, mais je le prends quand même.",有点贵，但我还是买。
-d'ailleurs,loc.,"besides, by the way, moreover",再说、顺便一提,"__________, je voulais t'en parler.","D'ailleurs, je voulais t'en parler.",再说，我本来就想跟你聊这个。
-du coup,loc.,"so, as a result（口语）",结果、于是（口语极高频）,"Il pleuvait, _______ on est restés.","Il pleuvait, du coup on est restés.",下雨了，结果我们就没走。
-désormais,adv.,"from now on, henceforth",从今以后（书面）,"_________, tout sera différent.","Désormais, tout sera différent.",从今以后一切都会不同。
-toutefois,adv.,"however, nevertheless",然而（书面）,"Ce projet est ambitieux ; _________, il reste réalisable.","Ce projet est ambitieux ; toutefois, il reste réalisable.",这个项目雄心勃勃，然而仍然可行。
-néanmoins,adv.,"nevertheless, nonetheless",尽管如此（B2 写作必备）,"Les résultats sont modestes ; _________, ils sont encourageants.","Les résultats sont modestes ; néanmoins, ils sont encourageants.",结果不算显著，但仍令人鼓舞。
-en revanche,loc.,"on the other hand, by contrast",相反、另一方面,"Le prix est élevé ; ___________, la qualité est excellente.","Le prix est élevé ; en revanche, la qualité est excellente.",价格偏高，但质量极好。
-or,conj.,"now, yet (introduces a turn in argument)",然而、可是（论证转折，B2 常见）,"Tout semblait réglé. ____, un problème est apparu.","Tout semblait réglé. Or, un problème est apparu.",一切似乎都解决了。然而，一个问题出现了。
-certes,adv.,"admittedly, granted（让步）",诚然、固然（让步开场）,"______, c'est coûteux, mais c'est nécessaire.","Certes, c'est coûteux, mais c'est nécessaire.",诚然这很贵，但很有必要。
-en effet,loc.,"indeed, in fact (confirms/explains)",确实、事实上（用于印证）,"Il n'est pas venu ; ________, il était malade.","Il n'est pas venu ; en effet, il était malade.",他没来；事实上他病了。
-voire,adv.,"or even, indeed",甚至（书面递进）,"C'est difficile, _____ impossible.","C'est difficile, voire impossible.",这很难，甚至不可能。
-tandis que,conj.,"whereas, while",而、与此同时（对比）,"Il travaille, __________ son frère s'amuse.","Il travaille, tandis que son frère s'amuse.",他在工作，而他弟弟在玩。
-alors que,conj.,whereas; while,尽管、而（对比）,Il est sorti _________il pleuvait.,Il est sorti alors qu'il pleuvait.,尽管下着雨他还是出门了。
-dès que,conj.,as soon as,一……就……,Appelle-moi _______ tu arrives.,Appelle-moi dès que tu arrives.,你一到就给我打电话。
-afin de / afin que,loc.,in order to / so that,为了（书面）,Il travaille dur _______ réussir.,Il travaille dur afin de réussir.,他努力工作以求成功。
-sinon,conj.,"otherwise, or else",否则,"Dépêche-toi, _____ on va être en retard.","Dépêche-toi, sinon on va être en retard.",快点，否则我们要迟到了。
-autant,adv.,"as much, so much",同样多、如此多,Je n'ai jamais ______ travaillé.,Je n'ai jamais autant travaillé.,我从没这么努力过。
-tellement,adv.,"so, so much",如此、这么,Il fait _________ chaud !,Il fait tellement chaud !,太热了！
-à peine,loc.,"hardly, barely",几乎不、刚刚,Je l'ai _______ vu.,Je l'ai à peine vu.,我几乎没看见他。
-un truc,n.m.,"thing, thingy（口语）",东西、玩意儿（口语万能词）,C'est quoi ce ____ ?,C'est quoi ce truc ?,这是什么玩意儿？
-un endroit,n.m.,"place, spot",地方,C'est un _______ magnifique.,C'est un endroit magnifique.,这地方真美。
-le milieu,n.m.,"middle; environment, circle",中间；环境、圈子,au ______ de la nuit,au milieu de la nuit,在半夜
-la plupart (de),n.f.,most (of),大部分,__________ des gens sont d'accord.,La plupart des gens sont d'accord.,大部分人都同意。
-un souci,n.m.,"worry, problem",烦恼、问题,Pas de _____ !,Pas de souci !,没问题！
-le boulot,n.m.,"job, work（口语）",工作（口语）,J'ai beaucoup de ______.,J'ai beaucoup de boulot.,我活儿很多。
-chaque / chacun,adj./pron.,each / each one,每个／每一个,______ fait ce qu'il veut.,Chacun fait ce qu'il veut.,各人做各人的事。
-pareil / pareille,adj.,"the same, similar",一样的,C'est ______ pour moi.,C'est pareil pour moi.,对我来说都一样。
-propre,adj.,clean; (before noun) own,干净的；（前置）自己的,sa ______ voiture / une chemise ______,sa propre voiture / une chemise propre,他自己的车／一件干净衬衫
-épais / épaisse,adj.,thick,厚的,un livre très _____,un livre très épais,一本很厚的书
-lourd / léger,adj.,heavy / light,重的／轻的,Ce sac est trop _____.,Ce sac est trop lourd.,这包太重了。
-vide / plein,adj.,empty / full,空的／满的,La salle est presque ____.,La salle est presque vide.,大厅几乎是空的。
-doux / douce,adj.,"soft, gentle, mild, sweet",柔和的、温和的,une voix très _____,une voix très douce,一个非常温柔的声音
-n'importe quoi,loc.,nonsense; anything at all,胡说八道；随便什么,Tu dis ______________ !,Tu dis n'importe quoi !,你在胡说八道！
-ça marche,loc.,"it works; OK, deal（口语）",行、可以（口语）,On se voit à 8h ? — _________ !,On se voit à 8h ? — Ça marche !,八点见？——行！
-en fait,loc.,"actually, in fact",其实、实际上（注意：不是 actuellement）,"_______, je ne savais pas.","En fait, je ne savais pas.",其实我并不知道。
-c'est-à-dire,loc.,"that is to say, i.e.",也就是说,"Demain, ____________ lundi.","Demain, c'est-à-dire lundi.",明天，也就是周一。
+﻿法语,词性,语法,英文释义,中文释义,例句挖空,例句,例句中文,词音频,句音频
+rester,动词,"语法第1组 -er · 助动词 être · p.p. resté(e)(s) · je reste, nous restons","to stay, to remain, to be left",停留、剩下,Il _____ encore du temps.,Il reste encore du temps.,还有时间。,[sound:fr-f597c3f42c0ed8.mp3],[sound:fr-0e184e09a2ab5a.mp3]
+chercher,动词,语法第1组 -er · 助动词 avoir · p.p. cherché · 直接及物，不加 pour,"to look for, to search",找、寻找,Je _______ mes lunettes.,Je cherche mes lunettes.,我在找我的眼镜。,[sound:fr-63dcaa3bb77442.mp3],[sound:fr-f42e50bbdf8ad0.mp3]
+trouver,动词,语法第1组 -er · 助动词 avoir · p.p. trouvé · je trouve que… = 我觉得……,to find; to think (opinion),找到；觉得,Je ______ ça bizarre.,Je trouve ça bizarre.,我觉得这很奇怪。,[sound:fr-d350d3cd4f8259.mp3],[sound:fr-f5ef7b492e1144.mp3]
+garder,动词,语法第1组 -er · 助动词 avoir · p.p. gardé,to keep; to look after,保留、保管；照看,_____ ça pour toi.,Garde ça pour toi.,这事你别说出去。,[sound:fr-1e2184833ea490.mp3],[sound:fr-5de5b4225e6d39.mp3]
+laisser,动词,语法第1组 -er · 助动词 avoir · p.p. laissé · laisser qn faire qch,to leave (sth); to let,留下；让、允许,______-moi t'expliquer.,Laisse-moi t'expliquer.,让我跟你解释。,[sound:fr-311e2ddf1defb0.mp3],[sound:fr-b68454f8db51ea.mp3]
+apporter,动词,语法第1组 -er · 助动词 avoir · p.p. apporté · 用于物（人用 amener）,to bring (an object),带来（物）,_______ ton ordinateur.,Apporte ton ordinateur.,把你电脑带来。,[sound:fr-9d493d143ec63b.mp3],[sound:fr-ebb8923bdcc070.mp3]
+emmener,动词,"语法第1组 -er · 助动词 avoir · p.p. emmené · j'emmène, nous emmenons（e→è）· 用于人",to take (a person) somewhere,带走（人）,Je t'______ au restaurant.,Je t'emmène au restaurant.,我带你去餐厅。,[sound:fr-befc8c3ec60eda.mp3],[sound:fr-9c824beb97e783.mp3]
+essayer,动词,语法第1组 -er · 助动词 avoir · p.p. essayé · j'essaie（或 j'essaye）· essayer de + inf.,to try; to try on,尝试；试穿,______ encore une fois.,Essaie encore une fois.,再试一次。,[sound:fr-6eb3d77812bdb2.mp3],[sound:fr-83692a4f11d60f.mp3]
+oublier,动词,语法第1组 -er · 助动词 avoir · p.p. oublié · oublier de + inf.,to forget,忘记,J'ai ______ mon parapluie.,J'ai oublié mon parapluie.,我忘带伞了。,[sound:fr-f6931b1d627b37.mp3],[sound:fr-30f976b82067e9.mp3]
+tomber,动词,语法第1组 -er · 助动词 être · p.p. tombé(e)(s),to fall,掉落、跌倒,Elle est ______ dans l'escalier.,Elle est tombée dans l'escalier.,她在楼梯上摔倒了。,[sound:fr-de51475d89b39f.mp3],[sound:fr-bd509dd55e4844.mp3]
+jeter,动词,"语法第1组 -er · 助动词 avoir · p.p. jeté · je jette, nous jetons（双写 tt）","to throw, to throw away",扔、丢弃,Ne _____ pas ça !,Ne jette pas ça !,别把这个扔了！,[sound:fr-ae08009535b508.mp3],[sound:fr-758d553c599b15.mp3]
+ranger,动词,语法第1组 -er · 助动词 avoir · p.p. rangé · nous rangeons（g→ge 保软音）,"to tidy up, to put away",整理、收好,_____ ta chambre.,Range ta chambre.,把你房间收拾一下。,[sound:fr-b1831fc6adcd14.mp3],[sound:fr-76cc845ceb1842.mp3]
+allumer,动词,语法第1组 -er · 助动词 avoir · p.p. allumé · 反义 éteindre,"to turn on, to light",打开（灯、电器）、点燃,"______ la lumière, s'il te plaît.","Allume la lumière, s'il te plaît.",请把灯打开。,[sound:fr-e1cc8967456165.mp3],[sound:fr-6805f94d7027e9.mp3]
+éteindre,动词,"语法第3组 · 助动词 avoir · p.p. éteint · j'éteins, nous éteignons","to turn off, to extinguish",关掉（灯、电器）、熄灭,______ la lumière en sortant.,Éteins la lumière en sortant.,出去时把灯关了。,[sound:fr-50d5a39433ac81.mp3],[sound:fr-e10011ab89dc4a.mp3]
+gagner,动词,语法第1组 -er · 助动词 avoir · p.p. gagné,to win; to earn,赢；赚,Elle _____ bien sa vie.,Elle gagne bien sa vie.,她收入不错。,[sound:fr-8052432901ea52.mp3],[sound:fr-01a730f7859baa.mp3]
+choisir,动词,"语法第2组 -ir · 助动词 avoir · p.p. choisi · je choisis, nous choisissons",to choose,选择,Il faut _______ maintenant.,Il faut choisir maintenant.,现在必须做选择。,[sound:fr-3aa94f85501448.mp3],[sound:fr-492781b725fc32.mp3]
+empêcher,动词,语法第1组 -er · 助动词 avoir · p.p. empêché · empêcher qn de + inf.,"to prevent, to stop (sb from)",阻止、妨碍,Rien ne t'_______ d'essayer.,Rien ne t'empêche d'essayer.,没什么能阻止你去试。,[sound:fr-d1fd5c7b35b8b2.mp3],[sound:fr-82a1b4f764157f.mp3]
+éviter,动词,语法第1组 -er · 助动词 avoir · p.p. évité · éviter de + inf.,to avoid,避免,J'_____ les heures de pointe.,J'évite les heures de pointe.,我避开高峰时段。,[sound:fr-86be758015c6e7.mp3],[sound:fr-cd9e8d422d38e7.mp3]
+atteindre,动词,"语法第3组 · 助动词 avoir · p.p. atteint · j'atteins, nous atteignons","to reach, to attain",达到、抵达,Nous avons _______ notre objectif.,Nous avons atteint notre objectif.,我们达到了目标。,[sound:fr-93c65e11c2d2f5.mp3],[sound:fr-59af0ba693243a.mp3]
+gérer,动词,"语法第1组 -er · 助动词 avoir · p.p. géré · je gère, nous gérons（é→è）","to manage, to handle",管理、处理,Je ____ la situation.,Je gère la situation.,我来处理这个情况。,[sound:fr-138fa654d8a193.mp3],[sound:fr-56a929a552c1c2.mp3]
+plaire (à),动词,语法第3组 · 助动词 avoir · p.p. plu · il plaît · 主宾与英语相反：ça me plaît = 我喜欢它,"to please, to be liked by",使喜欢（主宾与英语相反）,Ce film m'a beaucoup ____.,Ce film m'a beaucoup plu.,我很喜欢这部电影。,[sound:fr-bd9698723993f3.mp3],[sound:fr-72061b00569a2c.mp3]
+manquer (à),动词,语法第1组 -er · 助动词 avoir · p.p. manqué · 主宾与英语相反：tu me manques = 我想你,to be missed by; to lack,思念（主宾相反）；缺少,Tu me _______.,Tu me manques.,我想你。,[sound:fr-250fb8e7af6350.mp3],[sound:fr-ec034533c03d9d.mp3]
+suffire,动词,语法第3组 · 助动词 avoir · p.p. suffi · 常用无人称 il suffit de + inf.,"to be enough, to suffice",足够,Ça ______ !,Ça suffit !,够了！,[sound:fr-88735700a0d102.mp3],[sound:fr-97ae85414c5983.mp3]
+se débrouiller,代动词,语法代动词 · 第1组 · 助动词 être · p.p. débrouillé(e)(s) · je me débrouille,"to manage, to cope, to get by",自己应付、想办法,Je me __________ en français.,Je me débrouille en français.,我法语还应付得来。,[sound:fr-4290514726ce36.mp3],[sound:fr-a586ba01c72f9d.mp3]
+se rendre compte (de),代动词,语法代动词 · 助动词 être · p.p. rendu 不作性数配合（elle s'est rendu compte）,to realize,意识到,Je ne m'étais pas ____________.,Je ne m'étais pas rendu compte.,我之前没意识到。,[sound:fr-9b83b55bcc83ab.mp3],[sound:fr-32747ded246e9e.mp3]
+falloir (il faut),无人称动词,语法无人称动词，只有 il 形式 · 助动词 avoir · p.p. fallu · il faut / il faudra / il fallait,"to be necessary, must",必须、需要,Il ____ partir maintenant.,Il faut partir maintenant.,现在必须走了。,[sound:fr-e4a3b64be2c524.mp3],[sound:fr-17f6982b86115a.mp3]
+valoir (ça vaut),动词,语法第3组 · 助动词 avoir · p.p. valu · il vaut · il vaut mieux + inf. = 最好……,to be worth,值得、价值,Ça ____ le coup.,Ça vaut le coup.,这值得一试。,[sound:fr-b3674620b2e997.mp3],[sound:fr-825f529df5893f.mp3]
+s'agir (il s'agit de),无人称动词,语法无人称代动词，只有 il 形式 · 助动词 être · 不能用人做主语,"to be about, to be a matter of",涉及、关于,Il ______ d'un malentendu.,Il s'agit d'un malentendu.,这是个误会。,[sound:fr-d097c1d0c093e6.mp3],[sound:fr-3b97dd012b610a.mp3]
+appartenir (à),动词,"语法第3组（tenir 型）· 助动词 avoir · p.p. appartenu · j'appartiens, nous appartenons",to belong to,属于,Ce livre __________ à Marie.,Ce livre appartient à Marie.,这本书是玛丽的。,[sound:fr-81ba360cd7988b.mp3],[sound:fr-e4faf16501eb20.mp3]
+encore,副词,语法pas encore = 还没 · encore une fois = 再一次,still; again; more,还、仍然；再；更,Tu es ______ là ?,Tu es encore là ?,你还在这儿？,[sound:fr-e28ae878982214.mp3],[sound:fr-2c50308aa4b6c3.mp3]
+déjà,副词,语法常与复合过去时连用 · 疑问句表「已经……了吗」,already,已经,J'ai ____ mangé.,J'ai déjà mangé.,我已经吃过了。,[sound:fr-5ef82991e15130.mp3],[sound:fr-54ae2f54d2fd9e.mp3]
+plutôt,副词,语法plutôt que = 而不是 · 注意与 plus tôt（更早）区分,"rather, quite; instead",宁可、相当；而是,C'est ______ difficile.,C'est plutôt difficile.,这相当难。,[sound:fr-191a36ed153526.mp3],[sound:fr-0e21b4898648ed.mp3]
+quand même,固定短语,语法口语极高频 · 更正式的同义词 tout de même,"still, anyway, all the same",还是、仍然,"C'est cher, mais je le prends __________.","C'est cher, mais je le prends quand même.",有点贵，但我还是买。,[sound:fr-e83d939e8fde67.mp3],[sound:fr-ee3c5fe7f425f9.mp3]
+d'ailleurs,固定短语,语法补充一个附加论点 · 句首常见,"besides, by the way, moreover",再说、顺便一提,"__________, je voulais t'en parler.","D'ailleurs, je voulais t'en parler.",再说，我本来就想跟你聊这个。,[sound:fr-232f43a78ef252.mp3],[sound:fr-711375ceb57847.mp3]
+du coup,固定短语,语法口语极高频 · 书面语请用 par conséquent / donc,"so, as a result (colloquial)",结果、于是,"Il pleuvait, _______ on est restés.","Il pleuvait, du coup on est restés.",下雨了，结果我们就没走。,[sound:fr-6e7ca905fd94ae.mp3],[sound:fr-eced3794506706.mp3]
+désormais,副词,语法书面语 · 口语用 à partir de maintenant,"from now on, henceforth",从今以后,"_________, tout sera différent.","Désormais, tout sera différent.",从今以后一切都会不同。,[sound:fr-e44f7864e5741a.mp3],[sound:fr-ab4c6f4ab30840.mp3]
+toutefois,副词,语法书面语转折 · 位置灵活 · B2 写作常用,"however, nevertheless",然而,"Ce projet est ambitieux ; _________, il reste réalisable.","Ce projet est ambitieux ; toutefois, il reste réalisable.",这个项目雄心勃勃，然而仍然可行。,[sound:fr-1dc4c98d6d73ff.mp3],[sound:fr-625772e4050d32.mp3]
+néanmoins,副词,语法书面语让步转折 · B2 议论文必备,"nevertheless, nonetheless",尽管如此,"Les résultats sont modestes ; _________, ils sont encourageants.","Les résultats sont modestes ; néanmoins, ils sont encourageants.",结果不算显著，但仍令人鼓舞。,[sound:fr-9dc09e4e20687b.mp3],[sound:fr-92ead79a98505c.mp3]
+en revanche,固定短语,语法表对比 · 同义 par contre（口语更常用）,"on the other hand, by contrast",相反、另一方面,"Le prix est élevé ; ___________, la qualité est excellente.","Le prix est élevé ; en revanche, la qualité est excellente.",价格偏高，但质量极好。,[sound:fr-df1d45eb3fd2ec.mp3],[sound:fr-42176856e7c0c2.mp3]
+or,连词,语法论证转折词，置于句首 · 引出改变前提的新事实 · B2 阅读高频,"now, yet (introduces a turn in the argument)",然而、可是,"Tout semblait réglé. ____, un problème est apparu.","Tout semblait réglé. Or, un problème est apparu.",一切似乎都解决了。然而，一个问题出现了。,[sound:fr-eff6d9fd80c692.mp3],[sound:fr-2fda55f15cbaa8.mp3]
+certes,副词,"语法让步开场 · 固定套路 Certes…, mais… · B2 议论文必备","admittedly, granted",诚然、固然,"______, c'est coûteux, mais c'est nécessaire.","Certes, c'est coûteux, mais c'est nécessaire.",诚然这很贵，但很有必要。,[sound:fr-ec4c0a836a07a4.mp3],[sound:fr-893a5eae75b7bb.mp3]
+en effet,固定短语,语法用于印证或解释前一句 · 注意：转折的「其实」是 en fait，两者不同,"indeed, in fact (confirms or explains)",确实、事实上,"Il n'est pas venu ; ________, il était malade.","Il n'est pas venu ; en effet, il était malade.",他没来；事实上他病了。,[sound:fr-c1b1a26790d03d.mp3],[sound:fr-928095424a9068.mp3]
+voire,副词,语法书面语递进 · 勿与动词 voir（看）混淆,"or even, indeed",甚至,"C'est difficile, _____ impossible.","C'est difficile, voire impossible.",这很难，甚至不可能。,[sound:fr-c9af97591b531b.mp3],[sound:fr-35c9c4fb333cb4.mp3]
+tandis que,连词,语法引导从句 + 直陈式 · 表对比或同时,"whereas, while",而、与此同时,"Il travaille, __________ son frère s'amuse.","Il travaille, tandis que son frère s'amuse.",他在工作，而他弟弟在玩。,[sound:fr-04e19a7a6d36e3.mp3],[sound:fr-8e53001873c11b.mp3]
+alors que,连词,语法引导从句 + 直陈式 · 表对比或让步,whereas; even though,尽管、而,Il est sorti _________il pleuvait.,Il est sorti alors qu'il pleuvait.,尽管下着雨他还是出门了。,[sound:fr-4bd26a4819caf4.mp3],[sound:fr-10c2e9569ffa68.mp3]
+dès que,连词,语法+ 直陈式 · 谈将来时主从句都用将来时,as soon as,一……就……,Appelle-moi _______ tu arrives.,Appelle-moi dès que tu arrives.,你一到就给我打电话。,[sound:fr-47390d0da37842.mp3],[sound:fr-5893959184cbfd.mp3]
+afin de / afin que,固定短语,语法afin de + 不定式（同主语）· afin que + 虚拟式（不同主语）,in order to / so that,为了,Il travaille dur _______ réussir.,Il travaille dur afin de réussir.,他努力工作以求成功。,[sound:fr-2dae02418c7ed3.mp3],[sound:fr-a7363739677694.mp3]
+sinon,连词,语法引出反面后果 · 口语书面皆可,"otherwise, or else",否则,"Dépêche-toi, _____ on va être en retard.","Dépêche-toi, sinon on va être en retard.",快点，否则我们要迟到了。,[sound:fr-f58af70bfd7e1f.mp3],[sound:fr-0872329494aadb.mp3]
+autant,副词,语法autant de + 名词 · autant que = 和……一样多,"as much, so much",同样多、如此多,Je n'ai jamais ______ travaillé.,Je n'ai jamais autant travaillé.,我从没这么努力过。,[sound:fr-fd7855df54f52d.mp3],[sound:fr-597e0aa05b84e5.mp3]
+tellement,副词,语法tellement de + 名词 · tellement… que = 如此……以至于,"so, so much",如此、这么,Il fait _________ chaud !,Il fait tellement chaud !,太热了！,[sound:fr-2bd487e37e330c.mp3],[sound:fr-12814d021fc271.mp3]
+à peine,固定短语,语法句首时常引起倒装：À peine était-il arrivé que…,"hardly, barely",几乎不、刚刚,Je l'ai _______ vu.,Je l'ai à peine vu.,我几乎没看见他。,[sound:fr-1f7d5d07ca6ac7.mp3],[sound:fr-5af9713bf58c34.mp3]
+un truc,名词 · 阳性 ♂,语法复数 des trucs · 口语万能词，正式场合勿用,"thing, thingy",东西、玩意儿,C'est quoi ce ____ ?,C'est quoi ce truc ?,这是什么玩意儿？,[sound:fr-0ae9b051c135c4.mp3],[sound:fr-07cf1725d1c15e.mp3]
+un endroit,名词 · 阳性 ♂,语法复数 des endroits · 同义 un lieu（更正式）,"place, spot",地方,C'est un _______ magnifique.,C'est un endroit magnifique.,这地方真美。,[sound:fr-df28a47c874fc8.mp3],[sound:fr-baec34e656ecbb.mp3]
+le milieu,名词 · 阳性 ♂,语法复数 les milieux（-eu → -eux）· au milieu de = 在……中间,"middle; environment, circle",中间；环境、圈子,Il s'est réveillé au ______ de la nuit.,Il s'est réveillé au milieu de la nuit.,他半夜醒了。,[sound:fr-3554333e5bd30f.mp3],[sound:fr-8df697fc3c4540.mp3]
+la plupart (de),名词 · 阴性 ♀,语法la plupart des + 复数名词 → 动词用复数（la plupart des gens sont…）,most (of),大部分,__________ des gens sont d'accord.,La plupart des gens sont d'accord.,大部分人都同意。,[sound:fr-930bcd63938cd9.mp3],[sound:fr-1b9ac09fb79de0.mp3]
+un souci,名词 · 阳性 ♂,语法复数 des soucis · 口语 pas de souci = 没问题,"worry, problem",烦恼、问题,Pas de _____ !,Pas de souci !,没问题！,[sound:fr-5bbeea67daae6d.mp3],[sound:fr-c0cd5dcf85c841.mp3]
+le boulot,名词 · 阳性 ♂,语法复数 des boulots · 口语 · 正式用 le travail,"job, work (colloquial)",工作（口语）,J'ai beaucoup de ______.,J'ai beaucoup de boulot.,我活儿很多。,[sound:fr-4b9601a3ea2de7.mp3],[sound:fr-e1b3e71478ba90.mp3]
+chaque / chacun,形容词 / 代词,语法chaque + 单数名词（无复数形式）· chacun(e) 是代词，独立使用,each / each one,每个／每一个,______ fait ce qu'il veut.,Chacun fait ce qu'il veut.,各人做各人的事。,[sound:fr-07507726f81ddb.mp3],[sound:fr-aa656cdd8b1668.mp3]
+pareil / pareille,形容词,语法阴性 pareille · 复数 pareils / pareilles,"the same, similar",一样的,C'est ______ pour moi.,C'est pareil pour moi.,对我来说都一样。,[sound:fr-be79c2bd80a81b.mp3],[sound:fr-1953d08ac79d9f.mp3]
+propre,形容词,语法阴阳性同形 · 位置改变词义：sa propre voiture 他自己的车 / une voiture propre 干净的车,(before noun) own; (after noun) clean,（前置）自己的；（后置）干净的,Il a sa ______ entreprise.,Il a sa propre entreprise.,他有自己的公司。,[sound:fr-6b590e5b880280.mp3],[sound:fr-b1ad56fdf1afb6.mp3]
+épais / épaisse,形容词,语法阴性 épaisse · 复数 épais（不变）/ épaisses,thick,厚的,C'est un livre très _____.,C'est un livre très épais.,这是本很厚的书。,[sound:fr-70400b5e4094a1.mp3],[sound:fr-9be12dc76fd80a.mp3]
+lourd / lourde,形容词,语法阴性 lourde · 反义 léger / légère,heavy,重的,Ce sac est trop _____.,Ce sac est trop lourd.,这包太重了。,[sound:fr-8e39ba5c18c156.mp3],[sound:fr-7f5f6a2eb3687a.mp3]
+léger / légère,形容词,语法阴性 légère（é→è）· 复数 légers / légères,light (in weight); slight,轻的；轻微的,Prends un sac plus _____.,Prends un sac plus léger.,拿个轻一点的包。,[sound:fr-41185a81c704a1.mp3],[sound:fr-58d16719a2b3f6.mp3]
+vide,形容词,语法阴阳性同形 · 复数 vides · 反义 plein / pleine,empty,空的,La salle est presque ____.,La salle est presque vide.,大厅几乎是空的。,[sound:fr-73d8025a228ad9.mp3],[sound:fr-3eb6b0e474e442.mp3]
+plein / pleine,形容词,语法阴性 pleine · 口语 plein de = 很多,full,满的,Il y a _____ de monde.,Il y a plein de monde.,人很多。,[sound:fr-0515f9f6cdf468.mp3],[sound:fr-89122603938f50.mp3]
+doux / douce,形容词,语法阴性 douce · 复数 doux（不变）/ douces,"soft, gentle, mild, sweet",柔和的、温和的,Elle a une voix très _____.,Elle a une voix très douce.,她的声音很温柔。,[sound:fr-c2e1bc6e39105c.mp3],[sound:fr-e8079a5ad809d7.mp3]
+n'importe quoi,惯用表达,语法系列：n'importe qui / où / quand / comment · 口语常表「胡扯」,nonsense; anything at all,胡说八道；随便什么,Tu dis ______________ !,Tu dis n'importe quoi !,你在胡说八道！,[sound:fr-8843e433738621.mp3],[sound:fr-a0154ff0158f65.mp3]
+ça marche,惯用表达,语法口语 · 表示同意，或表示「行得通」,"it works; OK, deal",行、可以,On se voit à huit heures ? — _________ !,On se voit à huit heures ? — Ça marche !,八点见？——行！,[sound:fr-a3fe84ce0900aa.mp3],[sound:fr-9c56a337553a43.mp3]
+en fait,惯用表达,语法这才是英语的 actually，不是 actuellement · 口语极高频,"actually, in fact",其实、实际上,"_______, je ne savais pas.","En fait, je ne savais pas.",其实我并不知道。,[sound:fr-ad6bdf560dcb71.mp3],[sound:fr-cadce02f49f5d4.mp3]
+c'est-à-dire,惯用表达,语法缩写 c.-à-d. · 用于解释或改述,"that is to say, i.e.",也就是说,"Demain, ____________ lundi.","Demain, c'est-à-dire lundi.",明天，也就是周一。,[sound:fr-55640d1a5c2c28.mp3],[sound:fr-ea10a71a2f4631.mp3]

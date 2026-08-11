@@ -1,57 +1,81 @@
-<title>Anki 卡片预览 · 法语 DELF B2</title><style>
+<title>Anki 卡片预览 · 法语 DELF B2</title>
+<style>
 .card {
   font-family: -apple-system, "Segoe UI", "PingFang SC", "Hiragino Sans GB",
                "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
-  font-size: 20px;
-  line-height: 1.65;
+  font-size: 19px;
+  line-height: 1.6;
   text-align: center;
   color: #171B24;
   background: #FFFFFF;
-  padding: 18px 14px;
+  padding: 20px 16px;
 }
 .nightMode.card, .night_mode .card { color: #E7EBF3; background: #1A1E27; }
 
 .fr {
   font-family: "Iowan Old Style", Palatino, Georgia, serif;
-  font-size: 30px;
-  line-height: 1.3;
-  font-weight: 600;
+  font-size: 30px; line-height: 1.3; font-weight: 600;
 }
-.prompt { font-size: 15px; color: #6B7488; margin-bottom: 10px; }
+.prompt { font-size: 14.5px; color: #6B7488; margin-top: 8px; }
 .nightMode .prompt, .night_mode .prompt { color: #8791A6; }
 
 hr#answer { border: none; border-top: 1px solid #D7DDE9; margin: 16px 0; }
 .nightMode hr#answer, .night_mode hr#answer { border-top-color: #2B3448; }
 
-.zh   { font-size: 22px; font-weight: 600; margin: 6px 0; }
-.en   { font-size: 17px; color: #2A4BA0; font-style: italic; }
+.zh { font-size: 22px; font-weight: 600; margin: 6px 0; }
+.en { font-size: 16.5px; color: #2A4BA0; font-style: italic; }
 .nightMode .en, .night_mode .en { color: #8CA6F0; }
 
-.ex   { font-size: 17px; margin-top: 14px; line-height: 1.7; }
+/* 词性标签 */
+.pos {
+  display: inline-block; font-size: 12.5px; font-weight: 600;
+  padding: 2px 11px; border-radius: 99px; margin: 0 0 6px;
+  letter-spacing: .03em;
+}
+.pos-m { background: #E3EAF8; color: #2A4BA0; }
+.pos-f { background: #FBE4EA; color: #A62E4C; }
+.pos-n { background: #ECEFF4; color: #4B5464; }
+.nightMode .pos-m, .night_mode .pos-m { background: #1A2340; color: #A6BAF6; }
+.nightMode .pos-f, .night_mode .pos-f { background: #331C25; color: #F0A0B4; }
+.nightMode .pos-n, .night_mode .pos-n { background: #262D3B; color: #AEB7C6; }
+
+/* 语法细节块 */
+.gram {
+  font-size: 13.5px; line-height: 1.65; color: #4B5464;
+  background: #F5F7FA; border: 1px solid #E4E9F0; border-radius: 6px;
+  padding: 9px 13px; margin: 12px auto 0; max-width: 480px; text-align: left;
+}
+.nightMode .gram, .night_mode .gram {
+  color: #AEB7C6; background: #20263300; border-color: #2B3448; background: #202633;
+}
+.gram b { color: #2A4BA0; }
+.nightMode .gram b, .night_mode .gram b { color: #8CA6F0; }
+.gram-t {
+  display: block; font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase;
+  color: #8791A6; margin-bottom: 4px; font-weight: 600;
+}
+
+.ex { font-size: 17px; margin-top: 14px; line-height: 1.7; }
 .ex b { color: #2A4BA0; font-weight: 700; }
 .nightMode .ex b, .night_mode .ex b { color: #8CA6F0; }
-.ex .zhx { display:block; font-size: 14px; color: #6B7488; margin-top: 3px; }
-.nightMode .ex .zhx, .night_mode .ex .zhx { color: #8791A6; }
+.zhx { display: block; font-size: 13.5px; color: #6B7488; margin-top: 3px; }
+.nightMode .zhx, .night_mode .zhx { color: #8791A6; }
 
 .blank { color: #2A4BA0; font-weight: 700; letter-spacing: 1px; }
 .nightMode .blank, .night_mode .blank { color: #8CA6F0; }
 
-/* 阴阳性颜色编码：阳性蓝 / 阴性红 */
 .m { color: #2A4BA0; }
-.f { color: #B03050; }
+.f { color: #A62E4C; }
 .nightMode .m, .night_mode .m { color: #8CA6F0; }
-.nightMode .f, .night_mode .f { color: #E88396; }
+.nightMode .f, .night_mode .f { color: #F0A0B4; }
 
 .tag {
-  display: inline-block; font-size: 12px; letter-spacing: .08em;
-  padding: 2px 9px; border-radius: 99px; margin-bottom: 10px;
-  text-transform: uppercase;
+  display: inline-block; font-size: 11.5px; letter-spacing: .08em;
+  padding: 2px 10px; border-radius: 99px; margin-bottom: 10px; text-transform: uppercase;
 }
 .t-trap { background: #F8E3E1; color: #9A2E2E; }
-.t-ok   { background: #DFF0E7; color: #22694D; }
 .t-info { background: #E3EAF8; color: #2A4BA0; }
 .nightMode .t-trap, .night_mode .t-trap { background: #2C1917; color: #E28179; }
-.nightMode .t-ok,   .night_mode .t-ok   { background: #16281F; color: #6BC195; }
 .nightMode .t-info, .night_mode .t-info { background: #1A2340; color: #A6BAF6; }
 
 .wrong { color: #9A2E2E; text-decoration: line-through; }
@@ -59,17 +83,41 @@ hr#answer { border: none; border-top: 1px solid #D7DDE9; margin: 16px 0; }
 .nightMode .wrong, .night_mode .wrong { color: #E28179; }
 .nightMode .right, .night_mode .right { color: #6BC195; }
 
-.note { font-size: 14px; color: #6B7488; margin-top: 12px; }
+.note { font-size: 13.5px; color: #6B7488; margin-top: 12px; }
 .nightMode .note, .night_mode .note { color: #8791A6; }
+.audio { margin-top: 10px; }
 </style>
-<style>body{background:#EEF1F6;margin:0;padding:30px 22px 60px;font-family:-apple-system,'PingFang SC',sans-serif;}h1{max-width:1000px;margin:0 auto 6px;font:600 22px/1.3 'Iowan Old Style',Georgia,serif;color:#171B24;}p.i{max-width:1000px;margin:0 auto 30px;font-size:13.5px;color:#5C6373;}.pair{max-width:1000px;margin:0 auto 30px;}.lbl{font:600 12px/1 -apple-system,sans-serif;letter-spacing:.09em;color:#2A4BA0;margin-bottom:9px;}.two{display:grid;grid-template-columns:1fr 1fr;gap:14px;}@media(max-width:760px){.two{grid-template-columns:1fr;}}.card{border:1px solid #D7DDE9;border-radius:8px;min-height:160px;display:flex;flex-direction:column;justify-content:center;box-shadow:0 1px 3px rgba(21,26,38,.05);}.side{font:600 10.5px/1 monospace;color:#8791A6;margin-bottom:6px;letter-spacing:.08em;}</style>
-<h1>Anki 卡片预览</h1><p class='i'>每组左为正面、右为背面。实际卡片在 Anki 中同时适配浅色与夜间模式；阴阳性用颜色编码（<span style='color:#2A4BA0;font-weight:600'>阳性蓝</span> / <span style='color:#B03050;font-weight:600'>阴性红</span>）。</p>
-<div class="pair"><div class="lbl">01 假朋友 · 识义卡（法 → 义）</div><div class="two"><div><div class="side">正面 FRONT</div><div class="card"><div class="tag t-trap">faux ami</div><div class="fr">actuellement</div><div class="prompt">它到底是什么意思？</div></div></div><div><div class="side">背面 BACK</div><div class="card"><div class="tag t-trap">faux ami</div><div class="fr">actuellement</div><div class="prompt">它到底是什么意思？</div><hr id="answer"><div class="zh">目前、现在</div><div class="note">⚠️ 不是英语的 <b>actually</b>　·　英语原意该用 <i>en fait / en réalité</i></div><div class="ex">Je suis <b>actuellement</b> en réunion, je te rappelle.<span class="zhx">我现在正在开会，回头打给你。</span></div></div></div></div></div>
-<div class="pair"><div class="lbl">01 假朋友 · 反查卡（英 → 法）</div><div class="two"><div><div class="side">正面 FRONT</div><div class="card"><div class="tag t-info">反向检查</div><div class="fr">actually</div><div class="prompt">英语的这个意思，法语怎么说？<br>（提示：<b>不是</b> actuellement）</div></div></div><div><div class="side">背面 BACK</div><div class="card"><div class="tag t-info">反向检查</div><div class="fr">actually</div><div class="prompt">英语的这个意思，法语怎么说？<br>（提示：<b>不是</b> actuellement）</div><hr id="answer"><div class="zh right">en fait / en réalité</div><div class="note">而 <b>actuellement</b> 其实是「目前、现在」</div></div></div></div></div>
-<div class="pair"><div class="lbl">01 假朋友 · 带冠词（阴性红）</div><div class="two"><div><div class="side">正面 FRONT</div><div class="card"><div class="tag t-trap">faux ami</div><div class="fr"><span class="f">une librairie</span></div><div class="prompt">它到底是什么意思？</div></div></div><div><div class="side">背面 BACK</div><div class="card"><div class="tag t-trap">faux ami</div><div class="fr"><span class="f">une librairie</span></div><div class="prompt">它到底是什么意思？</div><hr id="answer"><div class="zh">书店</div><div class="note">⚠️ 不是英语的 <b>library</b>　·　英语原意该用 <i>une bibliothèque</i></div><div class="ex">J'ai acheté ce roman dans une petite <b>librairie</b>.<span class="zhx">我在一家小书店买了这本小说。</span></div></div></div></div></div>
-<div class="pair"><div class="lbl">04 句法假朋友</div><div class="two"><div><div class="side">正面 FRONT</div><div class="card"><div class="tag t-trap">句法陷阱</div><div class="zh">I've lived here for 3 years.</div><div class="prompt">用法语怎么说？</div></div></div><div><div class="side">背面 BACK</div><div class="card"><div class="tag t-trap">句法陷阱</div><div class="zh">I've lived here for 3 years.</div><div class="prompt">用法语怎么说？</div><hr id="answer"><div class="fr right">J'habite ici depuis 3 ans.</div><div class="note wrong" style="margin-top:8px;">✗ J'ai habité ici pour 3 ans.</div><div class="note">「自……以来」用<b>现在时 + depuis</b>，不是复合过去时。</div></div></div></div></div>
-<div class="pair"><div class="lbl">05 介词搭配</div><div class="two"><div><div class="side">正面 FRONT</div><div class="card"><div class="tag t-info">介词搭配</div><div class="ex">Je m'intéresse <span class="blank">____</span> l'histoire.</div><div class="prompt">填入正确的介词</div></div></div><div><div class="side">背面 BACK</div><div class="card"><div class="tag t-info">介词搭配</div><div class="ex">Je m'intéresse <span class="blank">____</span> l'histoire.</div><div class="prompt">填入正确的介词</div><hr id="answer"><div class="fr">s'intéresser <b>à</b></div><div class="ex" style="margin-top:10px;">Je m'intéresse <b>à</b> l'histoire.　我对历史感兴趣。</div><div class="note">英语对照：be interested <b>in</b></div></div></div></div></div>
-<div class="pair"><div class="lbl">06 后缀换算</div><div class="two"><div><div class="side">正面 FRONT</div><div class="card"><div class="tag t-info">换算公式</div><div class="zh">英语 <b>-ty</b> → 法语？</div></div></div><div><div class="side">背面 BACK</div><div class="card"><div class="tag t-info">换算公式</div><div class="zh">英语 <b>-ty</b> → 法语？</div><hr id="answer"><div class="fr"><b>-té</b>（阴性 ♀）</div><div class="ex">university → <i>l'université</i>；liberty → <i>la liberté</i>；quality → <i>la qualité</i></div></div></div></div></div>
-<div class="pair"><div class="lbl">07 拼写侦探</div><div class="two"><div><div class="side">正面 FRONT</div><div class="card"><div class="tag t-info">拼写侦探</div><div class="fr">forêt</div><div class="prompt">对应哪个英语词？</div></div></div><div><div class="side">背面 BACK</div><div class="card"><div class="tag t-info">拼写侦探</div><div class="fr">forêt</div><div class="prompt">对应哪个英语词？</div><hr id="answer"><div class="zh">forest</div><div class="note">规则：ˆ = 丢失的 s</div></div></div></div></div>
-<div class="pair"><div class="lbl">08 阴阳性词尾</div><div class="two"><div><div class="side">正面 FRONT</div><div class="card"><div class="tag t-info">阴阳性</div><div class="fr">-age</div><div class="prompt">阳性 ♂ 还是阴性 ♀？</div></div></div><div><div class="side">背面 BACK</div><div class="card"><div class="tag t-info">阴阳性</div><div class="fr">-age</div><div class="prompt">阳性 ♂ 还是阴性 ♀？</div><hr id="answer"><div class="zh"><span class="m">阳性 ♂ masculin</span>　<span style="font-size:15px;color:#6B7488;">~90%</span></div><div class="ex">le voyage, le fromage, le message</div><div class="note">⚠️ 例外：<b>la plage, l'image, la page, la cage, la nage, la rage, la plage</b></div></div></div></div></div>
-<div class="pair"><div class="lbl">09 核心词 · 例句填空（主卡）</div><div class="two"><div><div class="side">正面 FRONT</div><div class="card"><div class="prompt">填入缺失的词</div><div class="ex">Il <span class="blank">_____</span> encore du temps.<span class="zhx">还有时间。</span></div></div></div><div><div class="side">背面 BACK</div><div class="card"><div class="prompt">填入缺失的词</div><div class="ex">Il <span class="blank">_____</span> encore du temps.<span class="zhx">还有时间。</span></div><hr id="answer"><div class="fr">rester</div><div class="en">to stay, to remain, to be left</div><div class="note">停留、剩下　·　v.</div><div class="ex">Il <b>reste</b> encore du temps.</div></div></div></div></div>
+<style>
+body{background:#EEF1F6;margin:0;padding:32px 22px 64px;
+     font-family:-apple-system,'PingFang SC','Noto Sans CJK SC',sans-serif;}
+h1{max-width:1040px;margin:0 auto 6px;font:600 23px/1.3 'Iowan Old Style',Georgia,serif;color:#171B24;}
+p.i{max-width:1040px;margin:0 auto 32px;font-size:13.5px;color:#5C6373;line-height:1.7;}
+.pair{max-width:1040px;margin:0 auto 32px;}
+.lbl{font:600 12px/1.4 -apple-system,sans-serif;letter-spacing:.07em;color:#2A4BA0;margin-bottom:9px;}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:14px;align-items:start;}
+@media(max-width:780px){.two{grid-template-columns:1fr;}}
+/* 注意：这里必须保持 display:block —— Anki 的 .card 就是普通块级元素。
+   若改成 flex，子元素会被拉伸，词性/标签的胶囊背景会错误地占满整行。 */
+.card{border:1px solid #D7DDE9;border-radius:8px;min-height:150px;
+      display:block;box-shadow:0 1px 3px rgba(21,26,38,.05);}
+.side{font:600 10.5px/1 ui-monospace,monospace;color:#8791A6;margin-bottom:6px;letter-spacing:.08em;}
+.snd{display:inline-block;font-size:12.5px;color:#2A4BA0;background:#E3EAF8;
+     border-radius:99px;padding:3px 12px;margin:8px 0 2px;}
+</style>
+<h1>Anki 卡片预览</h1>
+<p class='i'>每组左为正面、右为背面。实际卡片在 Anki 中同时适配浅色与夜间模式。词性标签按阴阳性着色：<span style='background:#E3EAF8;color:#2A4BA0;padding:1px 8px;border-radius:99px;font-size:12px;'>名词 · 阳性 ♂</span> <span style='background:#FBE4EA;color:#A62E4C;padding:1px 8px;border-radius:99px;font-size:12px;'>名词 · 阴性 ♀</span> <span style='background:#ECEFF4;color:#4B5464;padding:1px 8px;border-radius:99px;font-size:12px;'>动词 / 形容词 / 副词…</span><br>🔊 处在 Anki 里是可播放的法语发音（词条为女声，例句为男声）。</p>
+<div class="pair"><div class="lbl">01 假朋友 · 识义卡（法 → 义）</div><div class="two"><div><div class="side">正面 FRONT</div><div class="card"><div class="tag t-trap">faux ami</div><div class="fr">actuellement</div><div class="audio"><div class="snd">🔊 发音</div></div><div class="prompt">词性是什么？意思是什么？</div></div></div><div><div class="side">背面 BACK</div><div class="card"><div class="tag t-trap">faux ami</div><div class="fr">actuellement</div><div class="audio"><div class="snd">🔊 发音</div></div><div class="prompt">词性是什么？意思是什么？</div><hr id="answer"><span class="pos pos-n">副词</span><div class="zh">目前、现在</div><div class="en">currently, at the moment</div><div class="note">⚠️ 不是英语的 <b>actually</b>　·　英语原意该用 <i>en fait / en réalité</i></div><div class="gram"><span class="gram-t">语法</span>由 actuel + -ment 构成</div><div class="ex">Je suis <b>actuellement</b> en réunion, je te rappelle.<span class="zhx">我现在正在开会，回头打给你。</span></div><div class="audio"><div class="snd">🔊 发音</div></div></div></div></div></div>
+<div class="pair"><div class="lbl">01 假朋友 · 反查卡（英 → 法）</div><div class="two"><div><div class="side">正面 FRONT</div><div class="card"><div class="tag t-info">反向检查</div><div class="fr">actually</div><div class="prompt">这个英语意思，法语怎么说？<br>（提示：<b>不是</b> actuellement）</div></div></div><div><div class="side">背面 BACK</div><div class="card"><div class="tag t-info">反向检查</div><div class="fr">actually</div><div class="prompt">这个英语意思，法语怎么说？<br>（提示：<b>不是</b> actuellement）</div><hr id="answer"><div class="fr right">en fait / en réalité</div><div class="note">而 <b>actuellement</b> 其实是「目前、现在」</div></div></div></div></div>
+<div class="pair"><div class="lbl">01 假朋友 · 听音卡（新增）</div><div class="two"><div><div class="side">正面 FRONT</div><div class="card"><div class="tag t-info">听力</div><div class="audio"><div class="snd">🔊 发音</div></div><div class="prompt">听到的是哪个词？拼写 + 词性 + 意思</div></div></div><div><div class="side">背面 BACK</div><div class="card"><div class="tag t-info">听力</div><div class="audio"><div class="snd">🔊 发音</div></div><div class="prompt">听到的是哪个词？拼写 + 词性 + 意思</div><hr id="answer"><div class="fr">actuellement</div><span class="pos pos-n">副词</span><div class="zh">目前、现在</div><div class="gram"><span class="gram-t">语法</span>由 actuel + -ment 构成</div></div></div></div></div>
+<div class="pair"><div class="lbl">02 假朋友 · 阴性名词（词性标签为红）</div><div class="two"><div><div class="side">正面 FRONT</div><div class="card"><div class="tag t-trap">faux ami</div><div class="fr"><span class="f">une veste</span></div><div class="audio"><div class="snd">🔊 发音</div></div><div class="prompt">词性是什么？意思是什么？</div></div></div><div><div class="side">背面 BACK</div><div class="card"><div class="tag t-trap">faux ami</div><div class="fr"><span class="f">une veste</span></div><div class="audio"><div class="snd">🔊 发音</div></div><div class="prompt">词性是什么？意思是什么？</div><hr id="answer"><span class="pos pos-f">名词 · 阴性 ♀</span><div class="zh">外套、夹克</div><div class="en">jacket</div><div class="note">⚠️ 不是英语的 <b>vest</b>　·　英语原意该用 <i>un gilet</i></div><div class="gram"><span class="gram-t">语法</span>复数 des vestes · 背心 = un gilet</div><div class="ex">Mets ta <b>veste</b>, il fait froid.<span class="zhx">穿上外套，天冷。</span></div><div class="audio"><div class="snd">🔊 发音</div></div></div></div></div></div>
+<div class="pair"><div class="lbl">02 假朋友 · 阳性名词 + 不规则复数</div><div class="two"><div><div class="side">正面 FRONT</div><div class="card"><div class="tag t-trap">faux ami</div><div class="fr"><span class="m">un journal</span></div><div class="audio"><div class="snd">🔊 发音</div></div><div class="prompt">词性是什么？意思是什么？</div></div></div><div><div class="side">背面 BACK</div><div class="card"><div class="tag t-trap">faux ami</div><div class="fr"><span class="m">un journal</span></div><div class="audio"><div class="snd">🔊 发音</div></div><div class="prompt">词性是什么？意思是什么？</div><hr id="answer"><span class="pos pos-m">名词 · 阳性 ♂</span><div class="zh">报纸 / 日记</div><div class="en">newspaper; diary</div><div class="note">⚠️ 不是英语的 <b>journal</b>　·　英语原意该用 <i>une revue（学术期刊）</i></div><div class="gram"><span class="gram-t">语法</span><b>复数 des journaux</b>（-al → -aux）· 也指日记</div><div class="ex">Je lis le <b>journal</b> tous les matins.<span class="zhx">我每天早上看报纸。</span></div><div class="audio"><div class="snd">🔊 发音</div></div></div></div></div></div>
+<div class="pair"><div class="lbl">04 句法假朋友</div><div class="two"><div><div class="side">正面 FRONT</div><div class="card"><div class="tag t-trap">句法陷阱</div><div class="zh">I've lived here for 3 years.</div><div class="prompt">用法语怎么说？</div></div></div><div><div class="side">背面 BACK</div><div class="card"><div class="tag t-trap">句法陷阱</div><div class="zh">I've lived here for 3 years.</div><div class="prompt">用法语怎么说？</div><hr id="answer"><div class="fr right">J'habite ici depuis 3 ans.</div><div class="audio"><div class="snd">🔊 发音</div></div><div class="note wrong" style="margin-top:8px;">✗ J'ai habité ici pour 3 ans.</div><div class="gram"><span class="gram-t">为什么</span>「自……以来」用<b>现在时 + depuis</b>，不是复合过去时。</div></div></div></div></div>
+<div class="pair"><div class="lbl">05 介词搭配</div><div class="two"><div><div class="side">正面 FRONT</div><div class="card"><div class="tag t-info">介词搭配</div><div class="ex">Je m'intéresse <span class="blank">____</span> l'histoire.</div><div class="prompt">填入正确的介词</div></div></div><div><div class="side">背面 BACK</div><div class="card"><div class="tag t-info">介词搭配</div><div class="ex">Je m'intéresse <span class="blank">____</span> l'histoire.</div><div class="prompt">填入正确的介词</div><hr id="answer"><div class="fr">s'intéresser <b>à</b></div><div class="ex">Je m'intéresse <b>à</b> l'histoire.<span class="zhx">我对历史感兴趣。</span></div><div class="audio"><div class="snd">🔊 发音</div></div><div class="note">英语对照：be interested <b>in</b></div></div></div></div></div>
+<div class="pair"><div class="lbl">06 后缀换算</div><div class="two"><div><div class="side">正面 FRONT</div><div class="card"><div class="tag t-info">换算公式</div><div class="zh">英语 <b>-ty</b> → 法语？</div></div></div><div><div class="side">背面 BACK</div><div class="card"><div class="tag t-info">换算公式</div><div class="zh">英语 <b>-ty</b> → 法语？</div><hr id="answer"><div class="fr"><b>-té</b>（名词 · 阴性 ♀）</div><div class="ex">university → <i>l'université</i>；liberty → <i>la liberté</i>；quality → <i>la qualité</i></div></div></div></div></div>
+<div class="pair"><div class="lbl">07 拼写侦探</div><div class="two"><div><div class="side">正面 FRONT</div><div class="card"><div class="tag t-info">拼写侦探</div><div class="fr"><span class="m">l'hôpital</span></div><div class="audio"><div class="snd">🔊 发音</div></div><div class="prompt">对应哪个英语词？</div></div></div><div><div class="side">背面 BACK</div><div class="card"><div class="tag t-info">拼写侦探</div><div class="fr"><span class="m">l'hôpital</span></div><div class="audio"><div class="snd">🔊 发音</div></div><div class="prompt">对应哪个英语词？</div><hr id="answer"><div class="zh">hospital</div><div class="gram"><span class="gram-t">规则</span>ˆ = 丢失的 s<br>n.m. · <b>复数 les hôpitaux</b></div></div></div></div></div>
+<div class="pair"><div class="lbl">08 阴阳性词尾</div><div class="two"><div><div class="side">正面 FRONT</div><div class="card"><div class="tag t-info">阴阳性</div><div class="fr">-age</div><div class="prompt">阳性 ♂ 还是阴性 ♀？</div></div></div><div><div class="side">背面 BACK</div><div class="card"><div class="tag t-info">阴阳性</div><div class="fr">-age</div><div class="prompt">阳性 ♂ 还是阴性 ♀？</div><hr id="answer"><span class="pos pos-m">名词 · 阳性 ♂</span><div class="note" style="margin-top:2px;">可靠度 ~90%</div><div class="ex">le voyage, le fromage, le message</div><div class="gram"><span class="gram-t">例外</span>⚠️ <b>la plage, l'image, la page, la cage, la nage, la rage</b></div></div></div></div></div>
+<div class="pair"><div class="lbl">09 核心词 · 例句填空（主卡）· 动词助动词为 être</div><div class="two"><div><div class="side">正面 FRONT</div><div class="card"><div class="prompt">填入缺失的词</div><div class="ex">Il <span class="blank">_____</span> encore du temps.<span class="zhx">还有时间。</span></div></div></div><div><div class="side">背面 BACK</div><div class="card"><div class="prompt">填入缺失的词</div><div class="ex">Il <span class="blank">_____</span> encore du temps.<span class="zhx">还有时间。</span></div><hr id="answer"><div class="fr">rester</div><div class="audio"><div class="snd">🔊 发音</div></div><span class="pos pos-n">动词</span><div class="en">to stay, to remain, to be left</div><div class="note" style="margin-top:2px;">停留、剩下</div><div class="gram"><span class="gram-t">语法</span>第1组 -er · <b>助动词 être</b> · p.p. resté(e)(s) · je reste, nous restons</div><div class="ex">Il <b>reste</b> encore du temps.</div><div class="audio"><div class="snd">🔊 发音</div></div></div></div></div></div>
+<div class="pair"><div class="lbl">09 核心词 · 认词卡 · 第3组不规则动词</div><div class="two"><div><div class="side">正面 FRONT</div><div class="card"><div class="fr">éteindre</div><div class="audio"><div class="snd">🔊 发音</div></div><div class="prompt">词性？意思？</div></div></div><div><div class="side">背面 BACK</div><div class="card"><div class="fr">éteindre</div><div class="audio"><div class="snd">🔊 发音</div></div><div class="prompt">词性？意思？</div><hr id="answer"><span class="pos pos-n">动词</span><div class="en">to turn off, to extinguish</div><div class="zh">关掉（灯、电器）、熄灭</div><div class="gram"><span class="gram-t">语法</span>第3组 · 助动词 avoir · p.p. <b>éteint</b> · j'éteins, nous éteignons</div><div class="ex"><b>Éteins</b> la lumière en sortant.<span class="zhx">出去时把灯关了。</span></div><div class="audio"><div class="snd">🔊 发音</div></div></div></div></div></div>
+<div class="pair"><div class="lbl">09 核心词 · 听音写词卡（新增）</div><div class="two"><div><div class="side">正面 FRONT</div><div class="card"><div class="tag t-info">听力</div><div class="audio"><div class="snd">🔊 发音</div></div><div class="prompt">听到的是哪个词？<br>写出拼写、词性和意思</div></div></div><div><div class="side">背面 BACK</div><div class="card"><div class="tag t-info">听力</div><div class="audio"><div class="snd">🔊 发音</div></div><div class="prompt">听到的是哪个词？<br>写出拼写、词性和意思</div><hr id="answer"><div class="fr">néanmoins</div><span class="pos pos-n">副词</span><div class="zh">尽管如此</div><div class="gram"><span class="gram-t">语法</span><b>书面语</b>让步转折 · <b>B2 议论文必备</b></div></div></div></div></div>
+<div class="pair"><div class="lbl">09 核心词 · 形容词（含阴性形式）</div><div class="two"><div><div class="side">正面 FRONT</div><div class="card"><div class="fr">doux / douce</div><div class="audio"><div class="snd">🔊 发音</div></div><div class="prompt">词性？意思？</div></div></div><div><div class="side">背面 BACK</div><div class="card"><div class="fr">doux / douce</div><div class="audio"><div class="snd">🔊 发音</div></div><div class="prompt">词性？意思？</div><hr id="answer"><span class="pos pos-n">形容词</span><div class="en">soft, gentle, mild, sweet</div><div class="zh">柔和的、温和的</div><div class="gram"><span class="gram-t">语法</span><b>阴性 douce</b> · 复数 doux（不变）/ douces</div><div class="ex">Elle a une voix très <b>douce</b>.<span class="zhx">她的声音很温柔。</span></div><div class="audio"><div class="snd">🔊 发音</div></div></div></div></div></div>
+<div class="pair"><div class="lbl">09 核心词 · 阳性名词（含不规则复数）</div><div class="two"><div><div class="side">正面 FRONT</div><div class="card"><div class="fr"><span class="m">le milieu</span></div><div class="audio"><div class="snd">🔊 发音</div></div><div class="prompt">词性？意思？</div></div></div><div><div class="side">背面 BACK</div><div class="card"><div class="fr"><span class="m">le milieu</span></div><div class="audio"><div class="snd">🔊 发音</div></div><div class="prompt">词性？意思？</div><hr id="answer"><span class="pos pos-m">名词 · 阳性 ♂</span><div class="en">middle; environment, circle</div><div class="zh">中间；环境、圈子</div><div class="gram"><span class="gram-t">语法</span><b>复数 les milieux</b>（-eu → -eux）· au milieu de = 在……中间</div><div class="ex">Il s'est réveillé au <b>milieu</b> de la nuit.<span class="zhx">他半夜醒了。</span></div><div class="audio"><div class="snd">🔊 发音</div></div></div></div></div></div>
